@@ -3,6 +3,11 @@ import React, { Component } from "react";
 import Home from "./HomeComponent";
 import Contact from "./ContactComponent";
 import About from "./AboutComponent";
+import Header from "./HeaderComponent";
+import Footer from "./FooterComponent";
+import Directory from "./DirectoryComponent";
+import CampsiteInfo from "./CampsiteInfoComponent";
+
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 
